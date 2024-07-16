@@ -1,0 +1,151 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+
+
+}
+
+.all {
+    display: flex;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    height: 69px;
+    border-top: 1px;
+    border-color: black;
+    z-index: 100;
+}
+
+.kontener {
+    display: flex;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    justify-content: space-between;
+}
+
+.logo {
+    align-self: center;
+    height: 2rem;
+    width: auto;
+}
+
+
+.nav {
+    align-self: center;
+    padding: 20px;
+
+}
+
+.nav a {
+    text-decoration: underline;
+}
+
+.misja {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.misjafoto {
+    height: 700px;
+    position: relative;
+    overflow: hidden;
+
+
+}
+
+.misjatext {
+    position: absolute;
+    background-color: black;
+    width: 100%;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.tysiac {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+}
+
+.menufoto {
+    justify-content: space-around;
+    height: 200px;
+    width: 300px;
+}
+
+.lista {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.srodek {
+    display: flex;
+    justify-content: center;
+}
+
+.piecset {
+    display: flex;
+    height: 500px;
+    width: auto;
+
+}
+
+.koniec {
+    position: absolute;
+    display: flex;
+    height: 500px;
+    width: auto;
+}
+
+.A1 {
+    display: flex;
+    width: 100%;
+    z-index: 33;
+    flex-direction: column;
+
+}
+
+.B2 {
+    display: flex;
+    width: 300px;
+    background-color: black;
+    z-index: 33;
+    justify-content: center;
+}
+
+.B2Parent {
+
+    display: flex;
+}
+
+.srodek2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: absolute;
+}
+
+.srodek3 {
+    display: flex;
+    z-index: 22;
+    flex-direction: column;
+
+
+
+}
